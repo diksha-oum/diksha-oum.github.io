@@ -1,0 +1,108 @@
+ 
+/**********************************************************/
+/* style for header bar  
+/**********************************************************/ 
+
+div.header { 
+position:absolute;
+top:0px ;
+left:0px ;
+width:1350px ;
+height:60px;
+background-color:#F39;
+}
+
+div.logos {
+position:absolute;
+top:10px ;
+left:20px ;
+width:35px ;
+height:60px;
+}
+
+div.title {
+position:absolute;
+top:25px ;
+left:85px ;
+width:400px ;
+height:60px;
+}
+
+div.headermenu {
+position:absolute;
+top:0px ;
+left:700px ;
+width:600px ;
+height:60px;
+}	
+
+font.headermenu {
+font-family:"Myriad Pro";
+font-weight:lighter;
+color:#FFF;
+}
+
+
+font.title {
+font-family:"Myriad Pro";
+font-weight:bold;
+color:#FFF;
+}
+ 
+ ul {
+list-style-type:none;
+ }
+ 
+li {
+	float:left;
+padding: 5px 20px;
+}
+
+/**********************************************************/
+/* style for gallery
+/**********************************************************/ 
+.w3-content{max-width:700px;margin:auto;}
+.w3-display-container{position:absolute; top:60px; left:25%;}
+
+.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-black{color:#fff!important;background-color:#000!important}
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+
+/**********************************************************/
+/* style for footer
+/**********************************************************/ 
+ 
+div.footer {
+position:absolute;
+top:572px ;
+left:0px ;
+width:1350px ;
+height:60px;
+background-color:#6F0
+}
+
+div.footerGallery {
+position:relative;
+top:572px ;
+left:0px ;
+width:1350px ;
+height:60px;
+background-color:#6F0
+}
+
+
+ ul.footermenu {
+list-style-type:none;
+ }
+ 
+li.footermenu {
+	float:left;
+padding: 5px 150px;
+}
+
+font.footermenu {
+font-family:"Myriad Pro";
+font-weight:bold;
+color:#039;
+}

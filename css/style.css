@@ -1,0 +1,236 @@
+ 
+/**********************************************************/
+/* style for header bar  
+/**********************************************************/ 
+
+div.header { 
+position:absolute;
+top:0px ;
+left:0px ;
+width:1350px ;
+height:60px;
+background-color:#F39;
+}
+
+div.logos {
+position:absolute;
+top:10px ;
+left:20px ;
+width:35px ;
+height:60px;
+}
+
+div.title {
+position:absolute;
+top:25px ;
+left:85px ;
+width:400px ;
+height:60px;
+}
+
+div.headermenu {
+position:absolute;
+top:0px ;
+left:700px ;
+width:600px ;
+height:60px;
+}	
+
+font.headermenu {
+font-family:"Myriad Pro";
+font-weight:lighter;
+color:#FFF;
+}
+
+
+font.title {
+font-family:"Myriad Pro";
+font-weight:bold;
+color:#FFF;
+}
+ 
+ ul {
+list-style-type:none;
+ }
+ 
+li {
+	float:left;
+padding: 5px 20px;
+}
+	 
+/**********************************************************/
+/* style for banner
+/**********************************************************/ 
+div.banner {
+
+position:absolute;
+top:60px ;
+left:0px ;
+width:1350px ;
+height:250px;
+background-color:#3CF
+
+}
+
+div.galleryimg{
+position:absolute;
+top:25px ;
+left:4% ;
+}
+
+div.galleryimg2{
+position:absolute;
+top:25px ;
+left:71%;
+}
+
+
+/**********************************************************/
+/* style for icons
+/**********************************************************/ 
+div.icons{
+
+position:absolute;
+top:310px ;
+left:0px ;
+width:1350px ;
+height:100px;
+background-color:#FFF
+}
+
+div.vision{
+position:absolute;
+top:25px ;
+left:15% ;
+width:250px ;
+height:100px;
+}
+  
+div.mission{
+position:absolute;
+top:25px ;
+left:45% ;
+width:250px ;
+height:100px;
+}
+ 
+div.objective{
+position:absolute;
+top:25px ;
+left:75%;
+width:250px ;
+height:100px;
+}	
+
+p.vision{
+font-family:"Myriad Pro";
+color:#333;
+}
+/**********************************************************/
+/* style for footer
+/**********************************************************/ 
+ 
+div.footer {
+position:absolute;
+top:280px ;
+left:0px ;
+width:1350px ;
+height:60px;
+background-color:#6F0
+}
+
+div.footerGallery {
+position:relative;
+top:780px ;
+left:0px ;
+width:1350px ;
+height:60px;
+background-color:#6F0
+}
+
+
+ ul.footermenu {
+list-style-type:none;
+ }
+ 
+li.footermenu {
+	float:left;
+padding: 5px 150px;
+}
+
+font.footermenu {
+font-family:"Myriad Pro";
+font-weight:bold;
+color:#039;
+}
+
+
+/**********************************************************/
+/* style for about
+/**********************************************************/ 
+
+div.aboutbanner {
+position:absolute;
+top:60px ;
+left:0px ;
+width:1300px ;
+height:700px;
+}
+
+div.dsa{
+font-family:"Myriad Pro";
+font-weight:bold
+position:absolute;
+top:100px ;
+left:10px ;
+width:400px ;
+height:60px;
+}
+
+ 
+div.ourvision{
+position:absolute;
+top:200px ;
+left:10px ;
+width:400px ;
+height:60px;	
+}
+
+div.ourmission{
+position:absolute;
+top:300px ;
+left:20px ;
+width:400px ;
+height:60px;	
+}
+
+div.ourobjective{
+position:absolute;
+top:100px ;
+left:10px ;
+width:400px ;
+height:60px;	
+}
+
+/**********************************************************/
+/* style for golden values
+/**********************************************************/ 
+div.ourgoldenvalues{
+font-family:"Myriad Pro"
+position:absolute;
+top:100px ;
+left:10px ;
+width:400px ;
+height:60px;
+}
+
+/**********************************************************/
+/* style for gallery
+/**********************************************************/ 
+.w3-content{max-width:490px;margin:auto;}
+.w3-display-container{position:absolute; top:250%; left:30%;}
+
+.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-black{color:#fff!important;background-color:#000!important}
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
